@@ -1,3 +1,5 @@
+# Lecture 6
+
 README.md 
 
 在terminal (執行)
@@ -41,3 +43,15 @@ src
 
 experiment
 > mcq.ipynb
+
+# Lecture 7
+
+src
+> mcqgenerator
+> > logger.py
+> > MCQGenerator.py
+> > utils.py
+
+Response.json
+
+StreamlitApp.py
