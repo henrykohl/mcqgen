@@ -21,7 +21,7 @@
 > 使用 venv 模式
 >```
 > > virtualenv env -p python
-> > source ./env/script/activate
+> > source ./env/Scripts/activate
 >```
 > 使用 conda 模式
 >```
@@ -58,12 +58,32 @@ And it will download or it will install it inside your virtual environment and i
 
 * 建立 src 資料夾
 > mcqgenerator
-> > **init**.py
+> > __init__.py
 > > 
-> **init**.py
+> __init__.py
 
 * 建立 experiment
 > mcq.ipynb
+
+--`Change kernel for 'environment\mcq.ipynb'` 選擇 `env\Scripts\python.exe`
+
+--`Commit` : structure updated
+
+--完成修改 setup.py
+
+--`pip install -r requirements.txt`
+
+產生 `mcqgenerator.egg-info`
+
+* 建立 .env
+> ```
+> OPENAI_API_KEY='屬於自己的OPENAI KEY'
+> ````
+
+--若需要，在 terminal 執行 `python -m pip install ipykernel -U --force-reinstall`
+
+
+--
 
 ## Lecture 7
 
