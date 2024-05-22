@@ -114,4 +114,10 @@ And it will download or it will install it inside your virtual environment and i
 
 --編輯 logger.py
 
-* 建立且編輯 test.py 
+* 建立且編輯 test.py
+
+--確認 terminal 在 Git bash 且 切換到 (env) 環境
+
+--用 `python test.py` 測試
+
+--`Commit` : I created a logger 
