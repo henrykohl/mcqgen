@@ -91,6 +91,10 @@ And it will download or it will install it inside your virtual environment and i
 
 * 建立 data.txt
 
+ --`Commit` : all files updated (mcq.ipynb, machinelearning.csv, data.txt 等，三個檔案 ) 
+ 
+---
+
 ## Lecture 7
 
 * src
