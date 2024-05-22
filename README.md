@@ -65,6 +65,8 @@ And it will download or it will install it inside your virtual environment and i
 * 建立 experiment
 > mcq.ipynb
 
+**開始編輯 `mcq.ipynb`**
+
 --`Change kernel for 'environment\mcq.ipynb'` 選擇 `env\Scripts\python.exe`
 
 --`Commit` : structure updated
@@ -78,12 +80,16 @@ And it will download or it will install it inside your virtual environment and i
 * 建立 .env
 > ```
 > OPENAI_API_KEY='屬於自己的OPENAI KEY'
-> ````
+> ```
 
 --若需要，在 terminal 執行 `python -m pip install ipykernel -U --force-reinstall`
 
+--修改 .gitignore
+> 新加 ```.env```
 
---
+--`Commit` : file updated
+
+* 建立 data.txt
 
 ## Lecture 7
 
