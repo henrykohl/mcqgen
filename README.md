@@ -112,4 +112,6 @@ And it will download or it will install it inside your virtual environment and i
 
 --`Commit` : updated the folder structure 
 
-test.py
+--編輯 logger.py
+
+* 建立且編輯 test.py 
