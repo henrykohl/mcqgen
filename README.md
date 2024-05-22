@@ -98,15 +98,18 @@ And it will download or it will install it inside your virtual environment and i
 ## Lecture 7
 
 * src
-> mcqgenerator
+> mcqgenerator (建立三個檔案)
+> 
 > > logger.py
 > > 
 > > MCQGenerator.py
 > > 
 > > utils.py
 
-Response.json
+* 建立 Response.json
 
-StreamlitApp.py
+* 建立 StreamlitApp.py
+
+--`Commit` : updated the folder structure 
 
 test.py
