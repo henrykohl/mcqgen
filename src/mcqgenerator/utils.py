@@ -31,7 +31,7 @@ def get_table_data(quiz_str):
         quiz_table_data=[]
 
         # iterate over the quiz dictionary and extract the required information 
-        for key, value in quiz.items(): 
+        for key, value in quiz_dict.items(): 
             mcq = value["mcq"]          ## 問題  
             options = " || ".join(       ## 選項
                 [
