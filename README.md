@@ -112,9 +112,9 @@ And it will download or it will install it inside your virtual environment and i
 
 --`Commit` : updated the folder structure 
 
---編輯 logger.py
+--編輯 `logger.py`
 
-* 建立且編輯 test.py
+* 建立且編輯 `test.py`
 
 --確認 terminal 在 Git bash 且 切換到 (env) 環境
 
@@ -125,3 +125,7 @@ And it will download or it will install it inside your virtual environment and i
 --編輯 `MCQGenerator.py`
 
 --編輯 `utils.py`
+
+--編輯 `Response.json`
+
+--編輯 `StreamlitAPP.py`
