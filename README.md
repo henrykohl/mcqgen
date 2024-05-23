@@ -121,3 +121,7 @@ And it will download or it will install it inside your virtual environment and i
 --用 `python test.py` 測試
 
 --`Commit` : I created a logger 
+
+--編輯 `MCQGenerator.py`
+
+--編輯 `utils.py`
