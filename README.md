@@ -129,3 +129,6 @@ And it will download or it will install it inside your virtual environment and i
 --編輯 `Response.json`
 
 --編輯 `StreamlitAPP.py`
+> 所有必要的 packages 都 import 完後，先在 terminal 執行 `>python StreamlitAPP.py` 測試
+> > 若有錯誤，可試著在 terminal 執行 `>python setup.py install`
+> > 或是將 `from src.mcqgenerator.MCQGenerator import generate_evaluate_chain` 先隱藏
