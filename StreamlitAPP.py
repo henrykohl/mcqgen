@@ -77,5 +77,5 @@ with st.form("user_inputs"):
                         else:
                             st.error("Error in the table data")   
 
-                 else:           
-                     st.write(response)
+                else:           
+                    st.write(response)
