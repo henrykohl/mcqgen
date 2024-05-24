@@ -25,7 +25,7 @@
 >```
 > 使用 conda 模式
 >```
-> > conda create -p env python-3.8 -y
+> > conda create -p env python=3.8 -y
 > > source activate ./env
 >```
 
@@ -124,7 +124,7 @@ And it will download or it will install it inside your virtual environment and i
 
 --編輯 `MCQGenerator.py`
 
---編輯 `utils.py`
+--編輯 `utils.py` 
 
 --編輯 `Response.json`
 
@@ -132,3 +132,8 @@ And it will download or it will install it inside your virtual environment and i
 > 所有必要的 packages 都 import 完後，先在 terminal 執行 `>python StreamlitAPP.py` 測試
 > > 若有錯誤，可試著在 terminal 執行 `>python setup.py install`
 > > 或是將 `from src.mcqgenerator.MCQGenerator import generate_evaluate_chain` 先隱藏
+> 
+> 在 loading json file 這一行 要注意 Response.json 的路徑是否正確
+> > 在 local (本機VSCode) : `with open('E:\gitstore\mcqgen\Response.json','r') as file:`
+> > 
+> > 在 cloud (github.dev): `with open('/workspaces/mcqgen/Response.json','r') as file:`
