@@ -45,10 +45,10 @@ with st.form("user_inputs"):
                 with get_openai_callback() as cb:
                     response=generate_evaluate_chain(
                         {
-                            "text": TEXT,
-                            "number": NUMBER,
-                            "subject":SUBJECT,
-                            "tone": TONE,
+                            "text": text,
+                            "number": mcq_count,
+                            "subject":subject,
+                            "tone": tone,
                             "response_json": json.dumps(RESPONSE_JSON)
                         }
                     )
