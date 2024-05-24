@@ -137,3 +137,11 @@ And it will download or it will install it inside your virtual environment and i
 > > 在 local (本機VSCode) : `with open('E:\gitstore\mcqgen\Response.json','r') as file:`
 > > 
 > > 在 cloud (github.dev): `with open('/workspaces/mcqgen/Response.json','r') as file:`
+
+--開起 StreamlitAPP
+> `> streamlit run StreamlitAPP.py`
+>
+> 如需要修改 port (default:8501), 舉例改成 8080
+> > `> streamlit run StreamlitAPP.py --server.port 8080`
+>
+> 接著就可以用 browser 開啟 project APP
