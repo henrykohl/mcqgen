@@ -16,7 +16,7 @@ with open('/workspaces/mcqgen/Response.json','r') as file:
     RESPONSE_JSON = json.load(file)
 
 #creating a title for the app
-st.title("MCQs Creator Applicationwith LangChain ~~")
+st.title("MCQs Creator Applicationwith LangChain ⛏️🚀")
 
 #Create a form using st.form
 with st.form("user_inputs"):
