@@ -38,7 +38,7 @@ with st.form("user_inputs"):
     # Check if the button is clicked and all fields have input
 
     if button and uploaded_file is not None and mcq_count and subject and tone:
-        with st.spinner("loading..."):
+        with st.spinner("loading..."): ## Display progress and status
             try:
                 text=read_file(uploaded_File)
                 #Count tokens and the cost of API call
