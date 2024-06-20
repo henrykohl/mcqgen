@@ -157,7 +157,7 @@ And it will download or it will install it inside your virtual environment and i
 >
 >  用 `streamlit run StreamlitAPP.py` 啟動後，開啟 browser
 >
-> 在 **Browse files** 選取 `AIDOC.txt`，在 **No. of MCQs** 輸入 `5` ，**Insert Subject** 輸入 `artificial intelligence`，**Complexity of Level of Questions** 輸入 `Simple`
+> 在 **Browse files** 選取 `AIDOC.txt`，在 **No. of MCQs** 輸入 `5` ，**Insert Subject** 輸入 `AI`，**Complexity of Level of Questions** 輸入 `Simple`
 
 * 進入今天主題AWS
 
@@ -188,6 +188,7 @@ And it will download or it will install it inside your virtual environment and i
 
 >python3 -m streamlit run StreamlitAPP.py
 ```
+注意：執行`pip3 install -r requirements.txt`時，會產生錯誤，解決方式參考 [pip install -r requirements.txt is failing: "This environment is externally managed"](https://stackoverflow.com/questions/75602063/pip-install-r-requirements-txt-is-failing-this-environment-is-externally-mana)
 
 ##### if you want to add openai api key
 
