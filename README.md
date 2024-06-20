@@ -150,6 +150,17 @@ And it will download or it will install it inside your virtual environment and i
 
 ## Lecture 8
 
+* 測試 Lecture 6 & 7 完成的 project
+> google "aritficial intelligence"，點選 wiki  所提供頁面
+>
+> 選擇 **Goals** 前一個 section 的內容，轉存為 `AIDOC.txt`
+>
+>  用 `streamlit run StreamlitAPP.py` 啟動後，開啟 browser
+>
+> 在 **Browse files** 選取 `AIDOC.txt`，在 **No. of MCQs** 輸入 `5` ，**Insert Subject** 輸入 `artificial intelligence`，**Complexity of Level of Questions** 輸入 `Simple`
+
+* 進入今天主題AWS
+
 1. first login to the AWS: https://aws.amazon.com/console/
 
 2. search about the EC2
