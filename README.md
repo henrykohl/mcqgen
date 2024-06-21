@@ -202,6 +202,8 @@ And it will download or it will install it inside your virtual environment and i
 
 * 補充：[Could not install packages due to an EnvironmentError: [Errno 28] No space left on device](https://stackoverflow.com/questions/55103162/could-not-install-packages-due-to-an-environmenterror-errno-28-no-space-left)
 
+* 補充：[pip install - killed](https://stackoverflow.com/questions/30550235/pip-install-killed)
+
 ##### if you want to add openai api key
 
 1. create .env file in your server
