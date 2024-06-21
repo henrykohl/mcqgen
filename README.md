@@ -200,6 +200,7 @@ And it will download or it will install it inside your virtual environment and i
 
 * 補充：[How to check remaining space in storage device EC2](https://stackoverflow.com/questions/26516032/how-to-check-remaining-space-in-storage-device-ec2)
 
+* 補充：[Could not install packages due to an EnvironmentError: [Errno 28] No space left on device](https://stackoverflow.com/questions/55103162/could-not-install-packages-due-to-an-environmenterror-errno-28-no-space-left)
 
 ##### if you want to add openai api key
 
