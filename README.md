@@ -203,6 +203,10 @@ And it will download or it will install it inside your virtual environment and i
 * 補充：[Could not install packages due to an EnvironmentError: [Errno 28] No space left on device](https://stackoverflow.com/questions/55103162/could-not-install-packages-due-to-an-environmenterror-errno-28-no-space-left)
 
 * 補充：[pip install - killed](https://stackoverflow.com/questions/30550235/pip-install-killed)
+ 
+* 補充：[create a venv having python3.8 as python3 On Ubuntu](https://stackoverflow.com/questions/62773433/python3-8-venv-not-working-with-python3-8-m-venv-env)
+
+* 補充：[How to Install Python 3.8 on Ubuntu 22.04 or 20.04](https://linuxcapable.com/install-python-3-8-on-ubuntu-linux/) 
 
 ##### if you want to add openai api key
 
