@@ -188,7 +188,18 @@ And it will download or it will install it inside your virtual environment and i
 
 >python3 -m streamlit run StreamlitAPP.py
 ```
-注意：執行`pip3 install -r requirements.txt`時，會產生錯誤，解決方式參考 [pip install -r requirements.txt is failing: "This environment is externally managed"](https://stackoverflow.com/questions/75602063/pip-install-r-requirements-txt-is-failing-this-environment-is-externally-mana)
+* 注意1：執行`pip3 install -r requirements.txt`時，會產生錯誤，解決方式參考 [pip install -r requirements.txt is failing: "This environment is externally managed"](https://stackoverflow.com/questions/75602063/pip-install-r-requirements-txt-is-failing-this-environment-is-externally-mana)
+* 注意2：執行`pip3 install ...`時，如果 package 大小超過 RAM of EC2，EC2會當住，package 無法安裝成功，解決方式參考 [Running out of RAM while doing pip install on AWS EC2](https://stackoverflow.com/questions/78133882/running-out-of-ram-while-doing-pip-install-on-aws-ec2)
+>```bash
+>sudo fallocate -l 1G ~/swapfile
+>sudo dd if=/dev/zero of=~/swapfile bs=1024 count=1048576
+>sudo chmod 600 ~/swapfile
+>sudo mkswap ~/swapfile
+>sudo swapon ~/swapfile
+>```
+
+* 補充：[How to check remaining space in storage device EC2](https://stackoverflow.com/questions/26516032/how-to-check-remaining-space-in-storage-device-ec2)
+
 
 ##### if you want to add openai api key
 
